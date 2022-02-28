@@ -1,0 +1,4 @@
+services:
+  site_location.timezone:
+    class: Drupal\site_location\Controller\CurrentTime
+    arguments: ['@config.factory','@datetime.time','@date.formatter']

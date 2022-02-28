@@ -1,0 +1,4 @@
+name: Site Location
+description: Get the Location of the site
+type: module
+core_version_requirement: ^8.8.0 || ^9
